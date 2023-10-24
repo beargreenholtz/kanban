@@ -1,0 +1,23 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 0 24px;
+	height: 100%;
+
+	.linesContainer {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		gap: 24px;
+	}
+
+	&__button {
+		font-weight: 700;
+		color: black;
+		background-color: wheat;
+		margin-top: 12px;
+		width: 100%;
+	}
+}
